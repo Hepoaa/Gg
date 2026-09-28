@@ -1,0 +1,4 @@
+# Cloudflare Deploy solicitará estos valores como secretos.
+# No pongas secretos reales en GitHub.
+NVIDIA_API_KEY=
+SESSION_SECRET=

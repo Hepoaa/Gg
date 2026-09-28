@@ -1,0 +1,12 @@
+FamilyOS Cloudflare OneClick
+
+Configuración clave:
+- D1: binding DB con autoaprovisionamiento (sin database_id fijo)
+- R2: binding FAMILYOS_FILES con autoaprovisionamiento (sin bucket_name fijo)
+- Secrets: NVIDIA_API_KEY y SESSION_SECRET fuera del repositorio
+- PWA: manifest + service worker + iconos
+- Migraciones: migrations/0001_initial.sql y 0002_categories.sql
+- Frontend: React + TypeScript + Vite
+- Backend: Cloudflare Worker
+
+Empieza con ANDROID-QUICKSTART.md o DEPLOY-ONE-CLICK.md.
